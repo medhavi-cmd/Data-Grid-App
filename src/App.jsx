@@ -88,19 +88,21 @@ const App = () => {
             <img
               src="https://cdni.iconscout.com/illustration/premium/thumb/not-found-illustration-svg-download-png-3363936.png"
               alt="No products"
-              className="w-48 opacity-60 mb-6"
+             className="w-70 h-70 opacity-70 mb-6"
             />
 
             <h2 className="text-xl font-semibold mb-2">No products found</h2>
 
             <p className="text-gray-500 text-sm">
-              Try adjusting your search or filter
+              Try searching for something else...
             </p>
           </div>
         )}
+
+         <Footer />
       </div>
 
-      {/* <Footer.jsx /> */}
+     
     </div>
   );
 };
