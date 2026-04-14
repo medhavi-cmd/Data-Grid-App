@@ -18,7 +18,7 @@ const Footer = () => {
           </p>
 
           {/* subtle accent line */}
-          <div className="w-12 h-1 bg-[#FF6B6B] rounded-full mt-5">dvbeufvbe</div>
+          <div className="w-12 h-1 bg-[#FF6B6B] rounded-full mt-5"></div>
         </div>
 
         {/* Contact */}

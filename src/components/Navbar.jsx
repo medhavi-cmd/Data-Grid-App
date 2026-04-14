@@ -1,12 +1,16 @@
 export default function Navbar() {
   return (
-    <div className="bg-white shadow-lg sticky top-0 z-50 py-4 px-6 flex items-center gap-2 backdrop-blur-md ">
-      {/* logo */}
-      <div className="w-8 h-8 bg-red-400 text-white flex items-center justify-center rounded-full">
+    <div className="sticky top-0 z-50 bg-white/80 backdrop-blur-md border-b border-red-100 py-4 px-6 flex items-center gap-3 shadow-[0_4px_20px_rgba(255,107,107,0.08)]">
+
+      <div className="w-9 h-9 bg-linear-to-br from-[#FF6B6B] to-[#FF8E8E] text-white flex items-center justify-center rounded-full font-semibold shadow-md shadow-red-200">
         B
       </div>
-      {/* brand name */}
-      <h1 className="font-semibold text-lg">Browsely</h1>
+
+      <h1 className="font-semibold text-lg tracking-tight text-gray-900">
+        Browsely
+      </h1>
+
     </div>
   );
 }
+``
