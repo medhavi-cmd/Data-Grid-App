@@ -4,7 +4,7 @@ Browsely is a responsive single-page web application that allows users to explor
 
 ## Live Demo
 
-<!-- [Add your Vercel link here] -->
+https://browsely-app.vercel.app/
 
 ## Repository
 
