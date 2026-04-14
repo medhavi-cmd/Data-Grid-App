@@ -1,14 +1,17 @@
-import { TriangleAlert } from 'lucide-react';
+import { TriangleAlert } from "lucide-react";
 
 function Error({ message }) {
   return (
-    <div className="text-center mt-16">
-      <p className="text-red-500 font-medium mb-2">
-        <TriangleAlert size={60} color="#edbc35" strokeWidth={3} /> 
+    <div className="flex flex-col items-center justify-center mt-20 text-center">
+      
+      {/* Icon */}
+      <div className="bg-red-100 p-4 rounded-full mb-4">
+        <TriangleAlert size={40} className="text-red-500" strokeWidth={2.5} />
+      </div>
+
+      {/* Message */}
+      <p className="text-red-500 font-medium text-lg max-w-md">
         {message}
-      </p>
-      <p className="text-gray-500 text-sm">
-        Please try again later
       </p>
     </div>
   );
